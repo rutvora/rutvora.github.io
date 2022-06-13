@@ -1,21 +1,21 @@
 # Site settings
-title: Dimension
 email: 
-  id: youremailaddress@gmail.com
+  id: contactme@rutvora.com
   show_on_home: true
   show_in_contact: true
-description: A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />for free under the <a href="https://html5up.net/license">Creative Commons</a> license.
+title: Rut Vora
+description: Incoming MS Computer Science Student at the University of British Columbia, Vancouver.  
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: Rut Vora
+street_address: 
+city: 
+state: 
+zip_code: 
+country: 
+phone:
 
-icon: fa-diamond # Font Awesome class for your site's icon
+icon: fa-r # Font Awesome class for your site's icon
 remote_theme: andrewbanchich/dimension-jekyll-theme
 
 # Email show config
@@ -62,7 +62,7 @@ youtube:
 
 # Social Links
 facebook:
-  url: 
+  url: https://www.facebook.com/rutvora 
   show_on_home: false
   show_in_contact: true
 googleplus:
@@ -70,7 +70,7 @@ googleplus:
   show_on_home: false
   show_in_contact: true
 instagram:
-  url: 
+  url: https://instagram.com/rutvora
   show_on_home: false
   show_in_contact: true
 pinterest:
@@ -90,30 +90,34 @@ style: compressed
 
 # Work Timeline
 work:
-  - company: "Some company"
+  - company: "F5, Inc."
     details:
-      - date: "October 2022"
-        position: "Your position"
-        description: "Some description"
-      - date: "June 2022"
-        position: "Different Position"
-        description: "Different Description"
-  - company: "Some other company"
+      - date: "Apr 2022 - "
+        position: "Software Engineer II"
+        description: "1. Working with eBPF for System Call Tracing <br/>2. Working with P4lang for customising network packet headers on the fly!"
+      - date: "Sep '20 - Apr '20"
+        position: "Software Engineer I"
+        description: "1. Worked with WebAssembly and WebAssembly System Interface to create language-independent modules <br/>2. Created PoC to enable normal apps to use DPDK and F-Stack (deployed on SmartNICs)"
+  - company: "Ericsson"
     details:
-      - date: "October 2020"
-        position: "Your position"
-        description: "Some description"
-      - date: "June 2020"
-        position: "Different Position"
-        description: "Different Description"
+      - date: "Jul '19 - Dec '19"
+        position: "Research Intern"
+        description: "1. Published a <a href=\"https://doi.org/10.1201/9781003052098-34\">research Paper</a> on 5G connectivity solution in Hyperloop <br>2. Proposed architectures for implementing 5G in AR/VR, Home Automation etc."
 
 # Projects Timeline
 # Note: The <style> in Work is somehow also applied to Projects! So no need to apply again in the file
 projects:
-  - title: "Project 1"
-    date: "Some date"
-    description: "Some description"
-    link: "https://github.com/rutvora/rutvora.github.io"
-  - title: "Project 2"
-    date: "Some other date"
-    description: "Some other description"
+  - title: "Adaptive Video Streaming on UDP"
+    date: "Apr '19 - Jun '19"
+    description: "Dynamically determine video compression factors like spatial and temporal compression, rate factors and codecs"
+    link: "https://github.com/rutvora/Intranet-Video-Caller/tree/master/GoLang/Video%20Caller"
+  - title: "Firmware Verification/Update in IoT devices using Ethereum Blockchain"
+    date: "Mar '19 - Apr '19"
+    description: "Proposed architecture to verify firmware integrity in IoT devices (similar to \"Secure Boot\") using Smart Contracts on Ethereum"
+    link: "https://github.com/RUTVORA/FIRMWARE_VERIFICATION-UPDATE_WITH_SMART_CONTRACTS"
+  - title: "Communication without the Internet"
+    date: "Oct '18"
+    description: "Enabled communicating safety status of user during a natural disaster using Bluetooth/Wifi-Direct"
+  - title: "Natural Disaster NavIC"
+    date: "Feb '19"
+    description: "Utilised 200-bit space in NavIC (Indian GPS counterpart) transmissions to send 10 safe locations and their status with 100m accuracy during a natural disaster (as a part of an ISRO hackathon)"

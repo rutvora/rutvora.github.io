@@ -4,7 +4,7 @@ email:
   show_on_home: true
   show_in_contact: true
 title: Rut Vora
-description: Incoming MS Computer Science Student at the University of British Columbia, Vancouver.  
+description: MS Computer Science Student at the University of British Columbia, Vancouver.  
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author: Rut Vora

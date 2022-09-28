@@ -104,21 +104,28 @@ work:
       - date: "Apr '22 - Aug '22"
         position: "Software Engineer II"
         description: >
-          1. Worked with eBPF for System Call Tracing in a Platform-as-a-service Environment <br />
-          2. Worked with P4lang for injecting proprietary information in SRv6 headers
+          <ol>
+            <li> Worked with eBPF for System Call Tracing in a Platform-as-a-service Environment </li>
+            <li> Worked with P4lang for injecting proprietary information in SRv6 headers </li>
+          </ol>
 
       - date: "Sep '20 - Apr '20"
         position: "Software Engineer I"
         description: >
-          1. Worked with WebAssembly and WebAssembly System Interface to create re-usable modules for F5 products <br />
-          2. Created PoC to enable unmodified apps to use DPDK and F-Stack (deployed on SmartNICs)
+          <ol>
+            <li> Worked with WebAssembly and WebAssembly System Interface to create re-usable modules for F5 products </li>
+            <li> Created PoC to enable unmodified apps to use DPDK and F-Stack (deployed on SmartNICs) </li>
+          </ol>
+
   - company: "Ericsson"
     details:
       - date: "Jul '19 - Dec '19"
         position: "Research Intern"
         description: >
-          1. Published a <a href="https://doi.org/10.1201/9781003052098-34">research Paper</a> on 5G connectivity solution in Hyperloop <br />
-          2. Proposed architectures for implementing 5G in AR/VR, Home Automation etc.
+          <ol>
+            <li> Published a <a href="https://doi.org/10.1201/9781003052098-34">research Paper</a> on 5G connectivity solution in Hyperloop </li>
+            <li> Proposed architectures for implementing 5G in AR/VR, Home Automation etc </li>
+          </ol>
 
 # Projects Timeline
 # Note: The <style> in Work is somehow also applied to Projects! So no need to apply again in the file

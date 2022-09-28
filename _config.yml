@@ -4,7 +4,10 @@ email:
   show_on_home: true
   show_in_contact: true
 title: Rut Vora
-description: MS Computer Science Student at the University of British Columbia, Vancouver.  
+description: | 
+  MS Computer Science Student at the University of British Columbia, Vancouver.
+  Research Assistant in Systopia, currently working on mitigating network Sidechannel attacks.
+
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author: Rut Vora
@@ -90,19 +93,31 @@ style: compressed
 
 # Work Timeline
 work:
+  - company: "Systopia Lab @ UBC CS"
+    details:
+      - date: "Sep '22 - "
+        position: "Research Assistant"
+        description: "Researching on mitigating network side channel attacks using Differential Privacy"
   - company: "F5, Inc."
     details:
-      - date: "Apr 2022 - "
+      - date: "Apr '22 - Aug '22"
         position: "Software Engineer II"
-        description: "1. Working with eBPF for System Call Tracing <br/>2. Working with P4lang for customising network packet headers on the fly!"
+        description: |
+          1. Worked with eBPF for System Call Tracing in a Platform-as-a-service Environment
+          2. Worked with P4lang for injecting proprietary information in SRv6 headers
+
       - date: "Sep '20 - Apr '20"
         position: "Software Engineer I"
-        description: "1. Worked with WebAssembly and WebAssembly System Interface to create language-independent modules <br/>2. Created PoC to enable normal apps to use DPDK and F-Stack (deployed on SmartNICs)"
+        description: |
+          1. Worked with WebAssembly and WebAssembly System Interface to create re-usable modules for F5 products
+          2. Created PoC to enable unmodified apps to use DPDK and F-Stack (deployed on SmartNICs)
   - company: "Ericsson"
     details:
       - date: "Jul '19 - Dec '19"
         position: "Research Intern"
-        description: "1. Published a <a href=\"https://doi.org/10.1201/9781003052098-34\">research Paper</a> on 5G connectivity solution in Hyperloop <br>2. Proposed architectures for implementing 5G in AR/VR, Home Automation etc."
+        description: |
+          1. Published a <a href=\"https://doi.org/10.1201/9781003052098-34\">research Paper</a> on 5G connectivity solution in Hyperloop
+          2. Proposed architectures for implementing 5G in AR/VR, Home Automation etc.
 
 # Projects Timeline
 # Note: The <style> in Work is somehow also applied to Projects! So no need to apply again in the file

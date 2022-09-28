@@ -5,7 +5,7 @@ email:
   show_in_contact: true
 title: Rut Vora
 description: | 
-  MS Computer Science Student at the University of British Columbia, Vancouver.
+  MS Computer Science Student at the University of British Columbia, Vancouver. <br />
   Research Assistant in Systopia, currently working on mitigating network Sidechannel attacks.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -97,26 +97,27 @@ work:
     details:
       - date: "Sep '22 - "
         position: "Research Assistant"
-        description: "Researching on mitigating network side channel attacks using Differential Privacy"
+        description: |
+          Researching on mitigating network side channel attacks using Differential Privacy
   - company: "F5, Inc."
     details:
       - date: "Apr '22 - Aug '22"
         position: "Software Engineer II"
         description: |
-          1. Worked with eBPF for System Call Tracing in a Platform-as-a-service Environment
+          1. Worked with eBPF for System Call Tracing in a Platform-as-a-service Environment <br />
           2. Worked with P4lang for injecting proprietary information in SRv6 headers
 
       - date: "Sep '20 - Apr '20"
         position: "Software Engineer I"
         description: |
-          1. Worked with WebAssembly and WebAssembly System Interface to create re-usable modules for F5 products
+          1. Worked with WebAssembly and WebAssembly System Interface to create re-usable modules for F5 products <br />
           2. Created PoC to enable unmodified apps to use DPDK and F-Stack (deployed on SmartNICs)
   - company: "Ericsson"
     details:
       - date: "Jul '19 - Dec '19"
         position: "Research Intern"
         description: |
-          1. Published a <a href=\"https://doi.org/10.1201/9781003052098-34\">research Paper</a> on 5G connectivity solution in Hyperloop
+          1. Published a <a href=\"https://doi.org/10.1201/9781003052098-34\">research Paper</a> on 5G connectivity solution in Hyperloop <br />
           2. Proposed architectures for implementing 5G in AR/VR, Home Automation etc.
 
 # Projects Timeline

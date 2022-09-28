@@ -1,21 +1,21 @@
 # Site settings
-email: 
+email:
   id: contactme@rutvora.com
   show_on_home: true
   show_in_contact: true
 title: Rut Vora
-description: | 
+description: >
   MS Computer Science Student at the University of British Columbia, Vancouver. <br />
   Research Assistant in Systopia, currently working on mitigating network Sidechannel attacks.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author: Rut Vora
-street_address: 
-city: 
-state: 
-zip_code: 
-country: 
+street_address:
+city:
+state:
+zip_code:
+country:
 phone:
 
 icon: fa-r # Font Awesome class for your site's icon
@@ -24,29 +24,29 @@ remote_theme: andrewbanchich/dimension-jekyll-theme
 # Email show config
 
 # Research Links
-orcid: 
+orcid:
   url: https://orcid.org/0000-0001-5064-1760
   show_on_home: true
   show_in_contact: false
-googlescholar: 
+googlescholar:
   url: https://scholar.google.com/citations?user=gB4ZP1MAAAAJ
   show_on_home: true
   show_in_contact: false
-researchgate: 
+researchgate:
   url: https://www.researchgate.net/profile/Rut-Vora
   show_on_home: true
   show_in_contact: false
 
 # Work Links
-github: 
+github:
   url: https://www.github.com/rutvora
   show_on_home: true
   show_in_contact: false
-gitlab: 
-  url: 
+gitlab:
+  url:
   show_on_home: true
   show_in_contact: false
-linkedin: 
+linkedin:
   url: https://www.linkedin.com/in/rutvora
   show_on_home: true
   show_in_contact: false
@@ -54,22 +54,22 @@ slack:
   url:
   show_on_home: true
   show_in_contact: false
-blog: 
+blog:
   url: https://rutvora.blogspot.com
   show_on_home: true
   show_in_contact: false
-youtube: 
+youtube:
   url: https://www.youtube.com/channel/UCLaHH4xiZZADIYZ-SwTtY2w
   show_on_home: true
   show_in_contact: false
 
 # Social Links
 facebook:
-  url: https://www.facebook.com/rutvora 
+  url: https://www.facebook.com/rutvora/
   show_on_home: false
   show_in_contact: true
 googleplus:
-  url: 
+  url:
   show_on_home: false
   show_in_contact: true
 instagram:
@@ -77,11 +77,11 @@ instagram:
   show_on_home: false
   show_in_contact: true
 pinterest:
-  url: 
+  url:
   show_on_home: false
   show_in_contact: true
 twitter:
-  url: 
+  url:
   show_on_home: false
   show_in_contact: true
 
@@ -93,31 +93,31 @@ style: compressed
 
 # Work Timeline
 work:
-  - company: "Systopia Lab @ UBC CS"
+  - company: "<a href=\"https://systopia.cs.ubc.ca/\">Systopia Lab @ UBC CS</a>"
     details:
       - date: "Sep '22 - "
         position: "Research Assistant"
-        description: |
+        description: >
           Researching on mitigating network side channel attacks using Differential Privacy
-  - company: "F5, Inc."
+  - company: "<a href=\"https://f5.com\">F5, Inc.</a>"
     details:
       - date: "Apr '22 - Aug '22"
         position: "Software Engineer II"
-        description: |
+        description: >
           1. Worked with eBPF for System Call Tracing in a Platform-as-a-service Environment <br />
           2. Worked with P4lang for injecting proprietary information in SRv6 headers
 
       - date: "Sep '20 - Apr '20"
         position: "Software Engineer I"
-        description: |
+        description: >
           1. Worked with WebAssembly and WebAssembly System Interface to create re-usable modules for F5 products <br />
           2. Created PoC to enable unmodified apps to use DPDK and F-Stack (deployed on SmartNICs)
   - company: "Ericsson"
     details:
       - date: "Jul '19 - Dec '19"
         position: "Research Intern"
-        description: |
-          1. Published a <a href=\"https://doi.org/10.1201/9781003052098-34\">research Paper</a> on 5G connectivity solution in Hyperloop <br />
+        description: >
+          1. Published a <a href="https://doi.org/10.1201/9781003052098-34">research Paper</a> on 5G connectivity solution in Hyperloop <br />
           2. Proposed architectures for implementing 5G in AR/VR, Home Automation etc.
 
 # Projects Timeline

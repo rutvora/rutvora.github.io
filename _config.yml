@@ -55,7 +55,7 @@ slack:
   show_on_home: true
   show_in_contact: false
 blog:
-  url: https://rutvora.blogspot.com
+  url: https://rutvora.com/blog
   show_on_home: true
   show_in_contact: false
 youtube:

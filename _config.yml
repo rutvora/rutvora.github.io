@@ -128,7 +128,6 @@ work:
           </ol>
 
 # Projects Timeline
-# Note: The <style> in Work is somehow also applied to Projects! So no need to apply again in the file
 projects:
   - title: "Adaptive Video Streaming on UDP"
     date: "Apr '19 - Jun '19"

@@ -98,37 +98,38 @@ work:
       - date: "Sep '22 - "
         position: "Research Assistant"
         description: >
-          <ol>
+          <ul>
             <li> NetShaper: A differentially-private network side channel mitigation system (Accepted at <a href="https://www.usenix.org/conference/usenixsecurity24">USENIX-Security '24</a>) </li>
-          </ol>
+            <li> Side channel attacks in interconnects like PCIe and CXL </li>
+          </ul>
           Researching on mitigating network side channel attacks using Differential Privacy
   - company: "<a href=\"https://f5.com\">F5, Inc.</a>"
     details:
       - date: "Apr '22 - Aug '22"
         position: "Software Engineer II"
         description: >
-          <ol>
+          <ul>
             <li> Used eBPF to detect and prevent potential privilege escalation attempts in a Platform-as-a-service Environment </li>
             <li> Worked with P4lang for injecting proprietary information in SRv6 headers </li>
-          </ol>
+          </ul>
 
       - date: "Sep '20 - Apr '20"
         position: "Software Engineer I"
         description: >
-          <ol>
+          <ul>
             <li> Explored the use of WebAssembly to provide in‑process isolation to imported external (untrusted) modules </li>
             <li> Created PoC to enable unmodified apps to use DPDK and F-Stack (deployed on SmartNICs) </li>
-          </ol>
+          </ul>
 
   - company: "Ericsson"
     details:
       - date: "Jul '19 - Dec '19"
         position: "Research Intern"
         description: >
-          <ol>
+          <ul>
             <li> Published a <a href="https://doi.org/10.1201/9781003052098-34">research Paper</a> on 5G connectivity solution in Hyperloop </li>
             <li> Proposed architectures for implementing 5G in AR/VR, Home Automation etc </li>
-          </ol>
+          </ul>
 
 # Projects Timeline
 projects:

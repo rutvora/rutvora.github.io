@@ -6,7 +6,7 @@ email:
 title: Rut Vora
 description: >
   MS Computer Science Student at the University of British Columbia, Vancouver. <br />
-  Research Assistant in Systopia, currently working on mitigating network Sidechannel attacks.
+  Research Assistant in Systopia, currently working on mitigating side channel from internet to interconnects.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -98,6 +98,9 @@ work:
       - date: "Sep '22 - "
         position: "Research Assistant"
         description: >
+          <ol>
+            <li> NetShaper: A differentially-private network side channel mitigation system (Accepted at <a href="https://www.usenix.org/conference/usenixsecurity24">USENIX-Security '24</a>) </li>
+          </ol>
           Researching on mitigating network side channel attacks using Differential Privacy
   - company: "<a href=\"https://f5.com\">F5, Inc.</a>"
     details:
@@ -105,7 +108,7 @@ work:
         position: "Software Engineer II"
         description: >
           <ol>
-            <li> Worked with eBPF for System Call Tracing in a Platform-as-a-service Environment </li>
+            <li> Used eBPF to detect and prevent potential privilege escalation attempts in a Platform-as-a-service Environment </li>
             <li> Worked with P4lang for injecting proprietary information in SRv6 headers </li>
           </ol>
 
@@ -113,7 +116,7 @@ work:
         position: "Software Engineer I"
         description: >
           <ol>
-            <li> Worked with WebAssembly and WebAssembly System Interface to create re-usable modules for F5 products </li>
+            <li> Explored the use of WebAssembly to provide in‑process isolation to imported external (untrusted) modules </li>
             <li> Created PoC to enable unmodified apps to use DPDK and F-Stack (deployed on SmartNICs) </li>
           </ol>
 

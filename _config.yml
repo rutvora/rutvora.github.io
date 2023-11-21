@@ -99,7 +99,7 @@ work:
         position: "Research Assistant"
         description: >
           <ul>
-            <li> NetShaper: A differentially-private network side channel mitigation system (Accepted at <a href="https://www.usenix.org/conference/usenixsecurity24">USENIX-Security '24</a>) </li>
+            <li> NetShaper: A differentially-private network side channel mitigation system (<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/sabzi">USENIX-Security '24</a>) </li>
             <li> Side channel attacks in interconnects like PCIe and CXL </li>
           </ul>
           Researching on mitigating network side channel attacks using Differential Privacy

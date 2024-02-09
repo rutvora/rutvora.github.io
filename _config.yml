@@ -1,8 +1,4 @@
 # Site settings
-email:
-  id: contactme@rutvora.com
-  show_on_home: true
-  show_in_contact: true
 title: Rut Vora
 description: >
   MS Computer Science Student at the University of British Columbia, Vancouver. <br />
@@ -22,6 +18,10 @@ icon: fa-r # Font Awesome class for your site's icon
 remote_theme: andrewbanchich/dimension-jekyll-theme
 
 # Email show config
+email:
+  id: contactme@rutvora.com
+  show_on_home: true
+  show_in_contact: true
 
 # Research Links
 orcid:
@@ -49,11 +49,11 @@ gitlab:
 linkedin:
   url: https://www.linkedin.com/in/rutvora
   show_on_home: true
-  show_in_contact: false
+  show_in_contact: true
 slack:
   url:
   show_on_home: true
-  show_in_contact: false
+  show_in_contact: true
 blog:
   url: https://rutvora.com/blog
   show_on_home: true
@@ -65,7 +65,7 @@ youtube:
 
 # Social Links
 facebook:
-  url: https://www.facebook.com/rutvora/
+  url:
   show_on_home: false
   show_in_contact: true
 googleplus:
@@ -73,7 +73,7 @@ googleplus:
   show_on_home: false
   show_in_contact: true
 instagram:
-  url: https://instagram.com/rutvora
+  url:
   show_on_home: false
   show_in_contact: true
 pinterest:

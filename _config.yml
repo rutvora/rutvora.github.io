@@ -147,12 +147,14 @@ projects:
     date: "Mar '19 - Apr '19"
     description: "Proposed architecture for consensus-based firmware integrity verfication in IoT devices using Smart Contracts on Ethereum"
     link: "https://github.com/RUTVORA/FIRMWARE_VERIFICATION-UPDATE_WITH_SMART_CONTRACTS"
-  
+
 
 competitions:
-  - title: "Fallback P2P Network for Critical Communication During Infrastructure Collapse"
+  - title: "Microsoft Hackathon"
     date: "Oct '18"
-    description: "Enabled communicating safety status of users during natural disasters without relying on mobile networks"
-  - title: "Natural Disaster NavIC"
+    description: >
+      <b> Fallback P2P Network for Critical Communication During Infrastructure Collapse </b> <br>
+      Enabled communicating safety status of users during natural disasters without relying on mobile networks
+  - title: "Smart India Hackathon"
     date: "Feb '19"
     description: "Utilised 200-bit space in NavIC (Indian GPS counterpart) transmissions to send 10 safe locations and their status with 100m accuracy during a natural disaster (as a part of an ISRO hackathon)"

@@ -131,7 +131,7 @@ work:
           </ul>
 
 # Projects Timeline
-projects:
+research_projects:
   - title: "CXL Side Channels"
     date: "Jun '23 - Present"
     description: "Exploring side‑channel exploits possible due to resource contention at CXL controllers in CXL memory pooling solutions"
@@ -139,15 +139,16 @@ projects:
     date: "Sep '22 - June '23"
     description: "A portable, tunable solution to mitigate network side‑channel attacks using differential privacy"
     link: "https://www.usenix.org/conference/usenixsecurity24/presentation/sabzi"
-  # - title: "Adaptive Video Streaming on UDP"
-  #   date: "Apr '19 - Jun '19"
-  #   description: "Dynamically determine video compression factors like spatial and temporal compression, rate factors and codecs"
-  #   link: "https://github.com/rutvora/Intranet-Video-Caller/tree/master/GoLang/Video%20Caller"
   - title: "Firmware Verification/Update in IoT devices using Ethereum Blockchain"
     date: "Mar '19 - Apr '19"
     description: "Proposed architecture for consensus-based firmware integrity verfication in IoT devices using Smart Contracts on Ethereum"
     link: "https://github.com/RUTVORA/FIRMWARE_VERIFICATION-UPDATE_WITH_SMART_CONTRACTS"
 
+dev_projects:
+  - title: "Adaptive Video Streaming on UDP"
+    date: "Apr '19 - Jun '19"
+    description: "Dynamically determine video compression factors like spatial and temporal compression, rate factors and codecs"
+    link: "https://github.com/rutvora/Intranet-Video-Caller/tree/master/GoLang/Video%20Caller"
 
 competitions:
   - title: "Smart India Hackathon"

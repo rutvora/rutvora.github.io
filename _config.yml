@@ -100,9 +100,8 @@ work:
         description: >
           <ul>
             <li> NetShaper: A differentially-private network side channel mitigation system (<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/sabzi">USENIX-Security '24</a>) </li>
-            <li> Side channel attacks in interconnects like PCIe and CXL </li>
+            <li> CXL-SC: Exploring Side Channel Vulnerabilities in CXL Memory Pooling Solutions </li>
           </ul>
-          Researching on mitigating network side channel attacks using Differential Privacy
   - company: "<a href=\"https://f5.com\">F5, Inc.</a>"
     details:
       - date: "Apr '22 - Aug '22"
@@ -127,23 +126,33 @@ work:
         position: "Research Intern"
         description: >
           <ul>
-            <li> Published a <a href="https://doi.org/10.1201/9781003052098-34">research Paper</a> on 5G connectivity solution in Hyperloop </li>
+            <li> Published a <a href="https://doi.org/10.1201/9781003052098-34">research Paper</a> on using 5G mmWave and Leaky-wave Antenna to Eliminate Doppler Effect in high-speed transportation </li>
             <li> Proposed architectures for implementing 5G in AR/VR, Home Automation etc </li>
           </ul>
 
 # Projects Timeline
 projects:
-  - title: "Adaptive Video Streaming on UDP"
-    date: "Apr '19 - Jun '19"
-    description: "Dynamically determine video compression factors like spatial and temporal compression, rate factors and codecs"
-    link: "https://github.com/rutvora/Intranet-Video-Caller/tree/master/GoLang/Video%20Caller"
+  - title: "CXL Side Channels"
+    date: "Jun '23 - Present"
+    description: "Exploring side‑channel exploits possible due to resource contention at CXL controllers in CXL memory pooling solutions"
+  - title: "NetShaper"
+    date: "Sep '22 - June '23"
+    description: "A portable, tunable solution to mitigate network side‑channel attacks using differential privacy"
+    link: "https://www.usenix.org/conference/usenixsecurity24/presentation/sabzi"
+  # - title: "Adaptive Video Streaming on UDP"
+  #   date: "Apr '19 - Jun '19"
+  #   description: "Dynamically determine video compression factors like spatial and temporal compression, rate factors and codecs"
+  #   link: "https://github.com/rutvora/Intranet-Video-Caller/tree/master/GoLang/Video%20Caller"
   - title: "Firmware Verification/Update in IoT devices using Ethereum Blockchain"
     date: "Mar '19 - Apr '19"
-    description: "Proposed architecture to verify firmware integrity in IoT devices (similar to \"Secure Boot\") using Smart Contracts on Ethereum"
+    description: "Proposed architecture for consensus-based firmware integrity verfication in IoT devices using Smart Contracts on Ethereum"
     link: "https://github.com/RUTVORA/FIRMWARE_VERIFICATION-UPDATE_WITH_SMART_CONTRACTS"
-  - title: "Communication without the Internet"
+  
+
+competitions:
+  - title: "Fallback P2P Network for Critical Communication During Infrastructure Collapse"
     date: "Oct '18"
-    description: "Enabled communicating safety status of user during a natural disaster using Bluetooth/Wifi-Direct"
+    description: "Enabled communicating safety status of users during natural disasters without relying on mobile networks"
   - title: "Natural Disaster NavIC"
     date: "Feb '19"
     description: "Utilised 200-bit space in NavIC (Indian GPS counterpart) transmissions to send 10 safe locations and their status with 100m accuracy during a natural disaster (as a part of an ISRO hackathon)"

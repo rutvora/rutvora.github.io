@@ -93,14 +93,14 @@ style: compressed
 
 # Work Timeline
 work:
-  - company: "<a href=\"https://systopia.cs.ubc.ca/\">Systopia Lab @ UBC CS</a>"
+  - company: "<a href=\"https://systopia.cs.ubc.ca/\">Systopia @ UBC CS</a>"
     details:
       - date: "Sep '22 - "
         position: "Research Assistant"
         description: >
           <ul>
-            <li> NetShaper: A differentially-private network side channel mitigation system (<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/sabzi">USENIX-Security '24</a>) </li>
-            <li> CXL-SC: Exploring Side Channel Vulnerabilities in CXL Memory Pooling Solutions </li>
+            <li> <b>NetShaper:</b> A differentially-private network side channel mitigation system (<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/sabzi">USENIX-Security '24</a>) </li>
+            <li> <b>CXL-SC:</b> Exploring Side Channel Vulnerabilities in CXL Memory Pooling Solutions </li>
           </ul>
   - company: "<a href=\"https://f5.com\">F5, Inc.</a>"
     details:
@@ -108,16 +108,16 @@ work:
         position: "Software Engineer II"
         description: >
           <ul>
-            <li> Used eBPF to detect and prevent potential privilege escalation attempts in a Platform-as-a-service Environment </li>
-            <li> Worked with P4lang for injecting proprietary information in SRv6 headers </li>
+            <li> Used <b>eBPF</b> to detect and prevent potential privilege escalation attempts in a Platform-as-a-service Environment </li>
+            <li> Worked with <b>P4</b> for injecting proprietary information in SRv6 headers </li>
           </ul>
 
       - date: "Sep '20 - Apr '20"
         position: "Software Engineer I"
         description: >
           <ul>
-            <li> Explored the use of WebAssembly to provide in‑process isolation to imported external (untrusted) modules </li>
-            <li> Created PoC to enable unmodified apps to use DPDK and F-Stack (deployed on SmartNICs) </li>
+            <li> Explored the use of <b>WebAssembly</b> to provide <b>in‑process isolation</b> to imported external (untrusted) modules </li>
+            <li> Enabled unmodified applications to leverage <b>DPDK</b> instead of the Linux kernel networking stack </li>
           </ul>
 
   - company: "Ericsson"
@@ -126,8 +126,7 @@ work:
         position: "Research Intern"
         description: >
           <ul>
-            <li> Published a <a href="https://doi.org/10.1201/9781003052098-34">research Paper</a> on using 5G mmWave and Leaky-wave Antenna to Eliminate Doppler Effect in high-speed transportation </li>
-            <li> Proposed architectures for implementing 5G in AR/VR, Home Automation etc </li>
+            <li> Researched applications of 5G mmWave in high-speed transportation and AR/VR </li>
           </ul>
 
 # Projects Timeline
@@ -139,6 +138,10 @@ research_projects:
     date: "Sep '22 - June '23"
     description: "A portable, tunable solution to mitigate network side‑channel attacks using differential privacy"
     link: "https://www.usenix.org/conference/usenixsecurity24/presentation/sabzi"
+  - title: "Provisioning of Broadband Communication for Passengers in Hyperloop using 5G Networks"
+    date: "Jul '19 - Oct '19"
+    description: "Developed a solution using 5G mmWave and leaky‑wave antennas to eliminate the Doppler effect in mobile networks caused by high‑speed transportation like Hyperloop"
+    link: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003052098-34/provisioning-broadband-communication-passengers-hyperloop-using-5g-networks-rut-vora-karthik-saravanan"
   - title: "Firmware Verification/Update in IoT devices using Ethereum Blockchain"
     date: "Mar '19 - Apr '19"
     description: "Proposed architecture for consensus-based firmware integrity verfication in IoT devices using Smart Contracts on Ethereum"

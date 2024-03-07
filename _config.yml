@@ -1,24 +1,27 @@
 # Site settings
-title: Dimension
-email: 
-  id: youremailaddress@gmail.com
-  show_on_home: true
-  show_in_contact: true
-description: A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />for free under the <a href="https://html5up.net/license">Creative Commons</a> license.
+title: Rut Vora
+description: >
+  MS Computer Science Student at the University of British Columbia, Vancouver. <br />
+  Research Assistant in Systopia, currently working on mitigating side channel from internet to interconnects.
+
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: Rut Vora
+street_address:
+city:
+state:
+zip_code:
+country:
+phone:
 
-icon: fa-diamond # Font Awesome class for your site's icon
+icon: fa-r # Font Awesome class for your site's icon
 remote_theme: andrewbanchich/dimension-jekyll-theme
 
 # Email show config
+email:
+  id: contactme@rutvora.com
+  show_on_home: true
+  show_in_contact: true
 
 # Research Links
 orcid:
@@ -46,13 +49,13 @@ gitlab:
 linkedin:
   url: https://www.linkedin.com/in/rutvora
   show_on_home: true
-  show_in_contact: false
+  show_in_contact: true
 slack:
   url:
   show_on_home: true
-  show_in_contact: false
+  show_in_contact: true
 blog:
-  url: https://rutvora.blogspot.com
+  url: https://rutvora.com/blog
   show_on_home: true
   show_in_contact: false
 youtube:
@@ -90,35 +93,77 @@ style: compressed
 
 # Work Timeline
 work:
-  - company: "Some company"
+  - company: "<a href=\"https://systopia.cs.ubc.ca/\">Systopia @ UBC CS</a>"
     details:
-      - date: "October 2022"
-        position: "Your position"
-        description: "Some description"
-      - date: "June 2022"
-        position: "Different Position"
-        description: "Different Description"
-  - company: "Some other company"
+      - date: "Sep '22 - "
+        position: "Research Assistant"
+        description: >
+          <ul>
+            <li> <b>NetShaper:</b> A differentially-private network side channel mitigation system (<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/sabzi">USENIX-Security '24</a>) </li>
+            <li> <b>CXL-SC:</b> Exploring Side Channel Vulnerabilities in CXL Memory Pooling Solutions </li>
+          </ul>
+  - company: "<a href=\"https://f5.com\">F5, Inc.</a>"
     details:
-      - date: "October 2020"
-        position: "Your position"
-        description: "Some description"
-      - date: "June 2020"
-        position: "Different Position"
-        description: "Different Description"
+      - date: "Apr '22 - Aug '22"
+        position: "Software Engineer II"
+        description: >
+          <ul>
+            <li> Used <b>eBPF</b> to detect and prevent potential privilege escalation attempts in a Platform-as-a-service Environment </li>
+            <li> Worked with <b>P4</b> for injecting proprietary information in SRv6 headers </li>
+          </ul>
+
+      - date: "Sep '20 - Apr '20"
+        position: "Software Engineer I"
+        description: >
+          <ul>
+            <li> Explored the use of <b>WebAssembly</b> to provide <b>in‑process isolation</b> to imported external (untrusted) modules </li>
+            <li> Enabled unmodified applications to leverage <b>DPDK</b> instead of the Linux kernel networking stack </li>
+          </ul>
+
+  - company: "Ericsson"
+    details:
+      - date: "Jul '19 - Dec '19"
+        position: "Research Intern"
+        description: >
+          <ul>
+            <li> Researched applications of 5G mmWave in high-speed transportation and AR/VR </li>
+          </ul>
 
 # Projects Timeline
 projects:
   - type: "Research"
-    - title: "Project 1"
-      date: "Some date"
-      description: "Some description"
-      link: "https://github.com/rutvora/rutvora.github.io"
-    - title: "Project 2"
-      date: "Some other date"
-      description: "Some other description"
+    projects:
+      - title: "CXL Side Channels"
+        date: "Jun '23 - Present"
+        description: "Exploring side‑channel exploits possible due to resource contention at CXL controllers in CXL memory pooling solutions"
+      - title: "NetShaper"
+        date: "Sep '22 - June '23"
+        description: "Developed a portable, tunable solution to mitigate network side‑channel attacks using differential privacy"
+        link: "https://www.usenix.org/conference/usenixsecurity24/presentation/sabzi"
+      - title: "Provisioning of Broadband Communication for Passengers in Hyperloop using 5G Networks"
+        date: "Jul '19 - Oct '19"
+        description: "Developed a solution using 5G mmWave and leaky‑wave antennas to eliminate the Doppler effect in mobile networks caused by high‑speed transportation like Hyperloop"
+        link: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003052098-34/provisioning-broadband-communication-passengers-hyperloop-using-5g-networks-rut-vora-karthik-saravanan"
+      - title: "Firmware Verification in IoT devices using Ethereum Blockchain"
+        date: "Mar '19 - Apr '19"
+        description: "Proposed architecture for consensus-based firmware integrity verfication in IoT devices using Smart Contracts on Ethereum"
+        link: "https://github.com/RUTVORA/FIRMWARE_VERIFICATION-UPDATE_WITH_SMART_CONTRACTS"
 
   - type: "Development"
-    - title: "Project 3"
-      date: "Date"
-      description: "Decription 3"
+    projects:
+      - title: "Adaptive Video Streaming on UDP"
+        date: "Apr '19 - Jun '19"
+        description: "Developed an application that dynamically determines video compression factors like spatial and temporal compression, rate factors and codecs"
+        link: "https://github.com/rutvora/Intranet-Video-Caller/tree/master/GoLang/Video%20Caller"
+
+competitions:
+  - title: "Smart India Hackathon"
+    date: "Feb '19"
+    description: >
+      <b> Disaster Relief broadcast using satellite </b> <br>
+      Utilised 200-bit space in NavIC (Indian GPS counterpart) transmissions to send 10 safe locations and their status with 100m accuracy during a natural disaster (as a part of an ISRO hackathon)
+  - title: "Microsoft Hackathon"
+    date: "Oct '18"
+    description: >
+      <b> Fallback P2P Network for Critical Communication During Infrastructure Collapse </b> <br>
+      Enabled communicating safety status of users during natural disasters without relying on mobile networks

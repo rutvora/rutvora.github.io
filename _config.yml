@@ -99,8 +99,8 @@ work:
         position: "Research Assistant"
         description: >
           <ul>
-            <li> <b>NetShaper:</b> A differentially-private network side channel mitigation system (<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/sabzi">USENIX-Security '24</a>) </li>
-            <li> <b>CXL-SC:</b> Exploring Side Channel Vulnerabilities in CXL Memory Pooling Solutions </li>
+            <li> <b>CXL-SC:</b> Developing an attack to infer private data being transmitted on the PCIe/CXL link </li>
+            <li> <b>NetShaper:</b> Developed a customisable differentially-private network side channel mitigation system able to handle > 250k requests/s per core (<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/sabzi">USENIX-Security '24</a>) </li>
           </ul>
   - company: "<a href=\"https://f5.com\">F5, Inc.</a>"
     details:
@@ -108,16 +108,16 @@ work:
         position: "Software Engineer II"
         description: >
           <ul>
+            <li> Enabled unmodified containerised applications to leverage <b>DPDK</b> instead of the Linux kernel networking stack </li>
             <li> Used <b>eBPF</b> to detect and prevent potential privilege escalation attempts in a Platform-as-a-service Environment </li>
-            <li> Worked with <b>P4</b> for injecting proprietary information in SRv6 headers </li>
           </ul>
 
       - date: "Sep '20 - Apr '20"
         position: "Software Engineer I"
         description: >
           <ul>
-            <li> Explored the use of <b>WebAssembly</b> to provide <b>in‑process isolation</b> to imported external (untrusted) modules </li>
-            <li> Enabled unmodified applications to leverage <b>DPDK</b> instead of the Linux kernel networking stack </li>
+            <li> Created a prototype that uses <b>WebAssembly</b> to provide <b>in‑process isolation</b> to imported (but untrusted) modules </li>
+            <li> Used Programmable Switches (<b>P4</b>) for injecting proprietary information in Segment Routing v6 headers < 1% overhead</li>
           </ul>
 
   - company: "Ericsson"
@@ -126,7 +126,8 @@ work:
         position: "Research Intern"
         description: >
           <ul>
-            <li> Researched applications of 5G mmWave in high-speed transportation and AR/VR </li>
+            <li> Developed a solution using 5G mmWave and leaky-wave antennas to eliminate the Doppler effect in mobile networks caused by high-speed (> 500km/h) transportation like Hyperloop </li>
+            <li> Proposed methods to use network slicing for enhancing 5G network utilisation per application class (e.g. VoIP Calls, Video Conferencing, Gaming) </li>
           </ul>
 
 # Projects Timeline

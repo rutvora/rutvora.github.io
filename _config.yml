@@ -1,8 +1,7 @@
 # Site settings
 title: Rut Vora
 description: >
-  MS Computer Science Student at the University of British Columbia, Vancouver. <br />
-  Research Assistant in Systopia, currently working on mitigating side channel from internet to interconnects.
+  Software Engineer at Arista Networks - Burnaby, BC, Canada. <br />
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -93,9 +92,17 @@ style: compressed
 
 # Work Timeline
 work:
+  - company: "<a href=\"https://arista.com/\">Arista Networks</a>"
+    details:
+      - date: "Apr '25 - "
+        position: "Software Engineer"
+        description: >
+          <ul>
+            <li> Working with PCIe </li>
+          </ul>
   - company: "<a href=\"https://systopia.cs.ubc.ca/\">Systopia @ UBC CS</a>"
     details:
-      - date: "Sep '22 - "
+      - date: "Sep '22 - Mar '25"
         position: "Research Assistant"
         description: >
           <ul>

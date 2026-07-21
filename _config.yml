@@ -18,7 +18,7 @@ remote_theme: andrewbanchich/dimension-jekyll-theme
 
 # Email show config
 email:
-  id: contactme@rutvora.com
+  id: <firstname>@<firstnamelastname>.com
   show_on_home: true
   show_in_contact: true
 
